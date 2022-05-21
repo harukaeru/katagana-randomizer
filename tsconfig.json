@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["esnext", "DOM"],
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "./dist/",
+    "rootDir": "./",
+    "isolatedModules": true,
+
+    "strict": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+
+    "baseUrl": "./",
+    "paths": {},
+    "rootDirs": [],
+    "typeRoots": [],
+    "types": ["node"],
+    "esModuleInterop": true,
+    "allowUmdGlobalAccess": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"]
+}
